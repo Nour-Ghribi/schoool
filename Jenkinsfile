@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     IMAGE = "nourxgh/school:1.0.0"
-    DOCKERHUB_CRED = "dockerhub-conn"   // ✅ ton credential existant
+    DOCKERHUB_CRED = "dockerhub-conn"   //  credential existant
   }
 
   stages {
